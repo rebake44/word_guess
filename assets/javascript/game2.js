@@ -1,5 +1,3 @@
-"use strict";
-
 //list of possible words//
 var selectableWords = [
     "DWIGHT", "JIM", "PAM", "MICHAEL", "JAN", "PHYLLIS", "STANLEY", "OSCAR", "KEVIN", "TOBY", "ANDY", "ANGELA", "ERIN", "RYAN", "KELLY", "HOLLY", "MEREDITH", "CREED", "DARRYL", "GABE", "ROBERT", "KAREN", "PACKER", "DAVID", "DEANGELO", "NELLIE", "CLARK", "PETE", "CHARLES"
