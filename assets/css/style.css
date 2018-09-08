@@ -1,0 +1,45 @@
+body {
+    background-color: deepskyblue;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#title {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    color: darkslategray;
+    font-weight: bold;
+}
+#you-win, 
+#game-over,
+#tryAgain { 
+    display: none;
+}
+footer {
+    text-align: center;
+    background-position: center center;
+    background-image: url(images/the_office_logo2.png);
+    background-size: 100% 100%;    
+    bottom: 0%;
+    height: 90px;
+    position: absolute;
+    width: 100%;
+}
+
+audio {
+    bottom: 0%;
+    height: 80%;
+
+}
+
+.container {
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategray;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button, .display1, .row, .panel {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}

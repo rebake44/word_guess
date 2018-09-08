@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>The Office Word Guess!</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/reset.css">
+  <script type="text/javascript" src="assets/javascript/game-test.js"></script>
+
+
+
+
+</head>
+
+<body>
+  <div class="container">
+
+    <img id="the-office-characters" src="assets/images/the-office-characters.jpg" class="img-fluid" alt="office-characters" />
+
+    <div id="title">guess the character name</div>
+
+    <img id="you-win" src="assets/images/post-it-you-win.jpg" class="img-fluid" alt="you-win" />
+
+    <img id="game-over" src="assets/images/game-over.jpg" class="img-responsive" alt="game-over" />
+
+    <h2 id="tryAgain">press any letter to play again!</h2>
+
+    <h3>wins</h3>
+    <h5 id="totalWins">total wins</h5>
+
+    <h4>current word</h4>
+    <h3 id="currentWord"></h3>
+
+    <h4>guesses remaining</h4>
+    <h6 id="remainingGuesses"></h6>
+
+    <h4>letters guessed</h4>
+    <h3 id="guessedLetters"></h3>
+  </div>
+
+  <script>
+    updateDisplay();
+    resetGame();
+  </script>
+
+
+  <!-- 
+  <div id=alerts>
+    <span class="alert-line"></span>
+  </div>
+  <div id="game-div" class="panel">
+    <div id="word-displayword-display">
+      <p id="word-display-letters"></p>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <p> Character Name</p>
+        <span id="guessed-letters"></span>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm">
+        <button type="button" class="btn btn-warning"> Incorrect Guesses <span class="badge badge-light">
+            <span id="error-count"></span>
+          </span> of 9</button>
+      </div>
+      <div class="col-sm">
+        <button type="button" class="btn btn-success"> Wins <span class="badge badge-light">
+            <span id="win-count"></span>
+          </span></button>
+      </div>
+      <div class="col-sm">
+        <button type="button" class="btn btn-danger">Losses <span class="badge badge-light">
+            <span id="loss-count"></span>
+          </span></button>
+      </div>
+      <div class="col-sm">
+        <button type="button" class="btn btn-secondary">Lives <span class="badge badge-light"><span id="lives-count"></span>
+          </span> of 3</button>
+      </div>
+    </div>
+  </div> -->
+  <!-- <script type="text/javascript" src="assets/javascript/game.js"></script> -->
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+  <!-- 
+  <div id="HANGMAN">HANGMAN
+    <h1>Guess A Letter</h1>
+    <input id="letter" type="text" />
+    <input type="button" value="letter" onClick="Letter()" />
+    <div id="answer">Answer Displayed Here</div>
+    <div id="counter">Counter Log</div>
+    <div id="stat">STAT</div>
+  </div> -->
+  <footer>
+    <audio controls loop>
+      <source src="assets/images/The_Office.mp3" type="audio/mpeg"> Your browser does not support the audio element.
+    </audio>
+  </footer>
+
+
+  </footer>
+</body>
+
+</html>
