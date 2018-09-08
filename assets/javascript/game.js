@@ -10,7 +10,7 @@ var selectableWords = [
 
 
 
-var winSound = new Audio ("assets/images/Win_win_win.mp3");
+var winSound = new Audio ("assets/images/win_win_win.wav");
 
 var loseSound = new Audio ("assets/images/false_clip.wav");
 
